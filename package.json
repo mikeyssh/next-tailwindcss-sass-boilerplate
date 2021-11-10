@@ -1,5 +1,5 @@
 {
-  "name": "next-tailwind-sass-boilerplate",
+  "name": "next-sass-tailwind-template",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -21,13 +21,18 @@
     "sass": "^1.42.1",
     "tailwind-scrollbar-hide": "^1.0.3"
   },
-    "devDependencies": {
-      "autoprefixer": "^10.2.6",
-      "postcss": "^8.3.5",
-      "postcss-flexbugs-fixes": "^5.0.2",
-      "postcss-import": "^14.0.2",
-      "postcss-preset-env": "^6.7.0",
-      "precss": "^4.0.0",
-      "tailwindcss": "^2.2.4"
-    }
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^6.7.0",
+    "precss": "^4.0.0",
+    "tailwindcss": "^2.2.4"
+  },
+  "scripts": {
+    "dev": "TAILWIND_MODE=watch next dev",
+    "build": "next build",
+    "start": "next start"
+  }
 }
